@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body > header{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+body > header > nav > ul > li > a:link, a:visited {
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 25px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+  }
+  
+body > header > h1{
+    font-size: 1.2em;
+    padding-left: 50px;
+  }
+
+#trending-destinations{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.trending-destination-container {
+    background-image: url("Https://www.placebear.com/400/200");
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
+.trending-destination-container > p {
+    margin-bottom: 50px;
+}
+
+
+.trending-destination-container > a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#search-form{
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+#search-form > button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
